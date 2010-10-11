@@ -260,8 +260,8 @@ public class BackupJRoller {
 	String result = null;
 	Document document = parse(target);
 	String lastDate = (String)evaluate(xpeLastDate, document);
-	    
-	result = lastDate.substring(0,4)+lastDate.substring(5,7)+lastDate.substring(8,10);
+	if ((lastDate!=null) && (lastDate.length()>0))
+	    result = lastDate.substring(0,4)+lastDate.substring(5,7)+lastDate.substring(8,10);
 	// debug(result);
 
 	return result; 
