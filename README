@@ -1,4 +1,13 @@
+A tool to export your JRoller blog and import it in Wordpress.com based in the instructions at
+http://theholyjava.wordpress.com/2010/05/22/migrating-from-jroller-to-wordpress/
+
+Compiled by Carlos Sanchez "carlos at apache dot org"
+http://carlossanchez.eu
+http://blog.carlossanchez.eu/2010/10/10/moved-to-blog-carlossanchez-eu/
+
 An improved JRoller export script
 http://www.jroller.com/kame/entry/export_and_backup_your_jroller
-
 Initial version by Damien Bonvillain kame at cinemasie.com
+
+plus a Groovy script to convert it to Wordpress format by Jakub Holy
+http://theholyjava.wordpress.com/2010/05/22/migrating-from-jroller-to-wordpress/
